@@ -1,0 +1,44 @@
+[debug] [2024-11-12T14:10:46.855Z] ----------------------------------------------------------------------
+[debug] [2024-11-12T14:10:46.857Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-11-12T14:10:46.857Z] CLI Version:   13.24.2
+[debug] [2024-11-12T14:10:46.857Z] Platform:      win32
+[debug] [2024-11-12T14:10:46.857Z] Node Version:  v22.11.0
+[debug] [2024-11-12T14:10:46.857Z] Time:          Tue Nov 12 2024 17:10:46 GMT+0300 (Arabian Standard Time)
+[debug] [2024-11-12T14:10:46.857Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-12T14:10:46.926Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-12T14:10:46.926Z] > authorizing via signed-in user (motamannalnoor99@gmail.com)
+[debug] [2024-11-12T14:10:46.926Z] [iam] checking project motaman-b4207 for permissions ["firebase.projects.get"]
+[debug] [2024-11-12T14:10:46.927Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:46.927Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:46.927Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/motaman-b4207:testIamPermissions [none]
+[debug] [2024-11-12T14:10:46.927Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/motaman-b4207:testIamPermissions x-goog-quota-user=projects/motaman-b4207
+[debug] [2024-11-12T14:10:46.927Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/motaman-b4207:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-12T14:10:47.980Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/motaman-b4207:testIamPermissions 200
+[debug] [2024-11-12T14:10:47.981Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/motaman-b4207:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-12T14:10:47.981Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:47.981Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:47.981Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207 [none]
+[debug] [2024-11-12T14:10:48.402Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207 200
+[debug] [2024-11-12T14:10:48.402Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207 {"projectId":"motaman-b4207","projectNumber":"55314278416","displayName":"motaman","name":"projects/motaman-b4207","resources":{"hostingSite":"motaman-b4207"},"state":"ACTIVE","etag":"1_d42ba11a-def5-4cb3-9f41-9bab39dfe619"}
+[info] 
+[info] === Serving from 'C:\Users\Lenovo\OneDrive\Desktop\html1'...
+[info] 
+[debug] [2024-11-12T14:10:48.409Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:48.409Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:48.409Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/motaman-b4207/sites 
+[debug] [2024-11-12T14:10:49.686Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/motaman-b4207/sites 200
+[debug] [2024-11-12T14:10:49.687Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/motaman-b4207/sites {"sites":[{"name":"projects/motaman-b4207/sites/motaman","defaultUrl":"https://motaman.web.app","appId":"1:55314278416:web:243a9f8c54cc010cf24295","type":"USER_SITE"},{"name":"projects/motaman-b4207/sites/motaman-b4207","defaultUrl":"https://motaman-b4207.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-11-12T14:10:49.687Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:49.687Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:49.687Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207/webApps/-/config [none]
+[debug] [2024-11-12T14:10:50.336Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207/webApps/-/config 200
+[debug] [2024-11-12T14:10:50.336Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207/webApps/-/config {"projectId":"motaman-b4207","appId":"1:55314278416:web:243a9f8c54cc010cf24295","storageBucket":"motaman-b4207.firebasestorage.app","apiKey":"AIzaSyDciAR8_2tSM7BfpFwzysmRWJIFOBvoMvI","authDomain":"motaman-b4207.firebaseapp.com","messagingSenderId":"55314278416","measurementId":"G-FMV44SVSZX"}
+[debug] [2024-11-12T14:10:50.341Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:50.341Z] Checked if tokens are valid: true, expires at: 1731421751249
+[debug] [2024-11-12T14:10:50.341Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207 [none]
+[debug] [2024-11-12T14:10:50.649Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207 200
+[debug] [2024-11-12T14:10:50.649Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/motaman-b4207 {"projectId":"motaman-b4207","projectNumber":"55314278416","displayName":"motaman","name":"projects/motaman-b4207","resources":{"hostingSite":"motaman-b4207"},"state":"ACTIVE","etag":"1_d42ba11a-def5-4cb3-9f41-9bab39dfe619"}
+[info] i  hosting[motaman-b4207]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[motaman-b4207]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [12/Nov/2024:14:11:00 +0000] "GET / HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [12/Nov/2024:14:11:00 +0000] \"GET / HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\""}}
